@@ -20,7 +20,9 @@ Available addons
 addon | version | summary
 --- | --- | ---
 [barcode_action](barcode_action/) | 14.0.1.0.0 | Allows to use barcodes as a launcher
-[base_export_manager](base_export_manager/) | 14.0.1.0.0 | Manage model export profiles
+[base_cancel_confirm](base_cancel_confirm/) | 14.0.1.0.0 | Base Cancel Confirm
+[base_export_manager](base_export_manager/) | 14.0.1.0.1 | Manage model export profiles
+[base_menu_visibility_restriction](base_menu_visibility_restriction/) | 14.0.1.0.0 | Restrict (with groups) menu visibilty
 [base_revision](base_revision/) | 14.0.1.0.0 | Keep track of revised document
 [base_search_custom_field_filter](base_search_custom_field_filter/) | 14.0.1.0.0 | Add custom filters for fields via UI
 [base_technical_features](base_technical_features/) | 14.0.1.1.0 | Access to technical features without activating debug mode
@@ -33,6 +35,7 @@ addon | version | summary
 [document_quick_access](document_quick_access/) | 14.0.1.0.0 | Document quick access
 [filter_multi_user](filter_multi_user/) | 14.0.1.0.0 | Allows to share user-defined filters filters among several users.
 [mass_editing](mass_editing/) | 14.0.1.0.1 | Mass Editing
+[multi_step_wizard](multi_step_wizard/) | 14.0.1.0.0 | Multi-Steps Wizards
 [sequence_reset_period](sequence_reset_period/) | 14.0.1.0.0 | Auto-generate yearly/monthly/weekly/daily sequence period ranges
 
 [//]: # (end addons)

@@ -114,6 +114,12 @@ class TierValidation(models.AbstractModel):
 
     @api.model
     def _search_reviewer_ids(self, operator, value):
+        model_operator = "in"
+        if operator == "=" and value in ("[]", False):
+            # Search for records that have not yet been through a validation
+            # process.
+            operator = "!="
+            model_operator = "not in"
         reviews = self.env["tier.review"].search(
             [
                 ("model", "=", self._name),
@@ -122,7 +128,7 @@ class TierValidation(models.AbstractModel):
                 ("status", "=", "pending"),
             ]
         )
-        return [("id", "in", list(set(reviews.mapped("res_id"))))]
+        return [("id", model_operator, list(set(reviews.mapped("res_id"))))]
 
     def _compute_validated_rejected(self):
         for rec in self:
@@ -232,6 +238,9 @@ class TierValidation(models.AbstractModel):
         for review in user_reviews:
             rec = self.env[review.model].browse(review.res_id)
             rec._notify_accepted_reviews()
+
+    def _get_requested_notification_subtype(self):
+        return "base_tier_validation.mt_tier_validation_requested"
 
     def _get_accepted_notification_subtype(self):
         return "base_tier_validation.mt_tier_validation_accepted"
@@ -346,7 +355,8 @@ class TierValidation(models.AbstractModel):
                     partner_ids=users_to_notify.mapped("partner_id").ids
                 )
                 getattr(rec, post)(
-                    subtype="mt_comment", body=rec._notify_requested_review_body()
+                    subtype=self._get_requested_notification_subtype(),
+                    body=rec._notify_requested_review_body(),
                 )
 
     def request_validation(self):

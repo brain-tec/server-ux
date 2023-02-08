@@ -10,10 +10,12 @@ setuptools.setup(
     install_requires=[
         'odoo13-addon-announcement',
         'odoo13-addon-barcode_action',
+        'odoo13-addon-base_action_visibility_restriction',
         'odoo13-addon-base_custom_filter',
         'odoo13-addon-base_duplicate_security_group',
         'odoo13-addon-base_export_manager',
         'odoo13-addon-base_import_security_group',
+        'odoo13-addon-base_ir_actions_report_sequence',
         'odoo13-addon-base_menu_visibility_restriction',
         'odoo13-addon-base_optional_quick_create',
         'odoo13-addon-base_rule_visibility_restriction',

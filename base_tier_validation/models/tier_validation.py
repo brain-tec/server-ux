@@ -222,6 +222,12 @@ class TierValidation(models.AbstractModel):
         return True
 
     def write(self, vals):
+
+        accountant_group = 	self.env.ref("account.group_account_user")
+        accountant_or_superior_users = (accountant_group |
+                                         self.env['res.groups'].search(
+                                             [('implied_ids', '=', accountant_group.id)])).users.ids
+
         for rec in self:
             if rec._check_state_conditions(vals):
                 if rec.need_validation:
@@ -243,6 +249,7 @@ class TierValidation(models.AbstractModel):
                         )
                     )
             if (
+                not self.env.user.id in accountant_or_superior_users and
                 rec.review_ids
                 and getattr(rec, self._state_field) in self._state_from
                 and not vals.get(self._state_field)

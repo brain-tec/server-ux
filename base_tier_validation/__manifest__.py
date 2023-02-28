@@ -12,7 +12,8 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["mail"],
+    "depends": ["mail",
+                "account"],
     "data": [
         "data/mail_data.xml",
         "security/ir.model.access.csv",

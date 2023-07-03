@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [base_custom_filter](base_custom_filter/) | 15.0.1.0.0 | [![AshishHirapara](https://github.com/AshishHirapara.png?size=30px)](https://github.com/AshishHirapara) [![ForgeFlow](https://github.com/ForgeFlow.png?size=30px)](https://github.com/ForgeFlow) | Add custom filters in standard filters and group by dropdowns
 [base_duplicate_security_group](base_duplicate_security_group/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Adds a security group to restrict which users can copy records
 [base_export_manager](base_export_manager/) | 15.0.1.0.1 |  | Manage model export profiles
+[base_field_deprecated](base_field_deprecated/) | 15.0.1.0.0 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Adds the deprecated attribute to the Odoo field model.
 [base_import_security_group](base_import_security_group/) | 15.0.1.0.1 |  | Group-based permissions for importing CSV files
 [base_menu_visibility_restriction](base_menu_visibility_restriction/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Restrict (with groups) menu visibilty
 [base_optional_quick_create](base_optional_quick_create/) | 15.0.1.0.0 |  | Avoid "quick create" on m2o fields, on a "by model" basis
@@ -37,6 +38,7 @@ addon | version | maintainers | summary
 [base_tier_validation](base_tier_validation/) | 15.0.1.2.4 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Implement a validation process based on tiers.
 [base_tier_validation_formula](base_tier_validation_formula/) | 15.0.1.0.0 |  | Formulas for Base tier validation
 [base_tier_validation_forward](base_tier_validation_forward/) | 15.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Forward option for base tiers
+[base_tier_validation_report](base_tier_validation_report/) | 15.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Reports related to tier validation
 [chained_swapper](chained_swapper/) | 15.0.1.0.2 |  | Chained Swapper
 [date_range](date_range/) | 15.0.1.1.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Manage all kind of date range
 [default_multi_user](default_multi_user/) | 15.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allows to share user-defined defaults among several users.

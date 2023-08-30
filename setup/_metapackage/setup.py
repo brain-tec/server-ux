@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo14-addon-barcode_action',
         'odoo14-addon-base_action_visibility_restriction',
+        'odoo14-addon-base_archive_date',
         'odoo14-addon-base_cancel_confirm',
         'odoo14-addon-base_custom_filter',
         'odoo14-addon-base_export_manager',
@@ -44,6 +45,7 @@ setuptools.setup(
         'odoo14-addon-sequence_range_end',
         'odoo14-addon-sequence_reset_period',
         'odoo14-addon-server_action_domain',
+        'odoo14-addon-web_archive_date',
     ],
     classifiers=[
         'Programming Language :: Python',

@@ -23,6 +23,7 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [barcode_action](barcode_action/) | 14.0.1.0.2 |  | Allows to use barcodes as a launcher
 [base_action_visibility_restriction](base_action_visibility_restriction/) | 14.0.1.0.0 | [![JordiMForgeFlow](https://github.com/JordiMForgeFlow.png?size=30px)](https://github.com/JordiMForgeFlow) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Restrict (with groups) action visibilty
+[base_archive_date](base_archive_date/) | 14.0.1.0.0 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Adds an archive timestamp and user doing the archiving to all models.
 [base_cancel_confirm](base_cancel_confirm/) | 14.0.1.1.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Base Cancel Confirm
 [base_custom_filter](base_custom_filter/) | 14.0.1.0.1 | [![AshishHirapara](https://github.com/AshishHirapara.png?size=30px)](https://github.com/AshishHirapara) [![ForgeFlow](https://github.com/ForgeFlow.png?size=30px)](https://github.com/ForgeFlow) | Add custom filters in standard filters and group by dropdowns
 [base_export_manager](base_export_manager/) | 14.0.1.0.2 |  | Manage model export profiles
@@ -57,6 +58,7 @@ addon | version | maintainers | summary
 [sequence_range_end](sequence_range_end/) | 14.0.1.0.0 |  | Sequence prefix/suffix option, 'range_end_', to use the beginning of the range
 [sequence_reset_period](sequence_reset_period/) | 14.0.1.0.0 |  | Auto-generate yearly/monthly/weekly/daily sequence period ranges
 [server_action_domain](server_action_domain/) | 14.0.1.0.0 |  | Apply a domain filter before executing server actions on records
+[web_archive_date](web_archive_date/) | 14.0.1.0.1 | [![GuillemCForgeFlow](https://github.com/GuillemCForgeFlow.png?size=30px)](https://github.com/GuillemCForgeFlow) | Reflects the Latest Archived Date and Latest Archived by on the record metadata.
 
 [//]: # (end addons)
 

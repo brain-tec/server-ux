@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[base_optional_quick_create](base_optional_quick_create/) | 17.0.1.0.0 |  | Avoid "quick create" on m2o fields, on a "by model" basis
 [base_revision](base_revision/) | 17.0.1.0.0 |  | Keep track of revised document
 [base_search_custom_field_filter](base_search_custom_field_filter/) | 17.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Add custom filters for fields via UI
 [base_technical_features](base_technical_features/) | 17.0.1.0.0 |  | Access to technical features without activating debug mode
@@ -28,6 +29,7 @@ addon | version | maintainers | summary
 [base_tier_validation_formula](base_tier_validation_formula/) | 17.0.1.0.0 |  | Formulas for Base tier validation
 [date_range](date_range/) | 17.0.1.2.0 | [![lmignon](https://github.com/lmignon.png?size=30px)](https://github.com/lmignon) | Manage all kind of date range
 [date_range_account](date_range_account/) | 17.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add Date Range menu entry in Invoicing app
+[multi_step_wizard](multi_step_wizard/) | 17.0.1.0.0 |  | Multi-Steps Wizards
 [sequence_reset_period](sequence_reset_period/) | 17.0.1.0.0 |  | Auto-generate yearly/monthly/weekly/daily sequence period ranges
 [server_action_mass_edit](server_action_mass_edit/) | 17.0.1.0.0 |  | Mass Editing
 

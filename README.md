@@ -55,6 +55,7 @@ addon | version | maintainers | summary
 [multi_step_wizard](multi_step_wizard/) | 15.0.1.0.1 |  | Multi-Steps Wizards
 [sequence_check_digit](sequence_check_digit/) | 15.0.1.0.1 |  | Adds a check digit on sequences
 [sequence_reset_period](sequence_reset_period/) | 15.0.1.0.0 |  | Auto-generate yearly/monthly/weekly/daily sequence period ranges
+[template_content_swapper](template_content_swapper/) | 15.0.1.0.0 |  | Template Content Swapper
 [web_archive_date](web_archive_date/) | 15.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Reflects the Latest Archived Date and Latest Archived by on the record metadata.
 
 [//]: # (end addons)

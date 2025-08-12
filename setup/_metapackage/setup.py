@@ -34,6 +34,7 @@ setuptools.setup(
         'odoo-addon-base_warn_option>=15.0dev,<15.1dev',
         'odoo-addon-chained_swapper>=15.0dev,<15.1dev',
         'odoo-addon-date_range>=15.0dev,<15.1dev',
+        'odoo-addon-date_range_account>=15.0dev,<15.1dev',
         'odoo-addon-default_multi_user>=15.0dev,<15.1dev',
         'odoo-addon-document_quick_access>=15.0dev,<15.1dev',
         'odoo-addon-document_quick_access_folder_auto_classification>=15.0dev,<15.1dev',
